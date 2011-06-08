@@ -32,7 +32,7 @@ def encrypt(data)
 end
 
 get '/' do
-  "BofA Upload/Download app -edit for Larry"
+  "Upload/Download app"
 end
 
 get '/download/:user/:filename' do
