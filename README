@@ -1,0 +1,8 @@
+pre-reqs:
+Ruby, Sinatra, Git Heroku
+
+overview:
+small sample sinatra app that handles upload/download of files via encrypted communication (SSL, 128bit) 
+and encrypts/decrypts content (AES, 256bit)
+
+Can be customized for various asset stores, user auth and key mgmt.
