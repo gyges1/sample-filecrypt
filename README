@@ -1,3 +1,6 @@
+author:
+cmort, 2011
+
 pre-reqs:
 Ruby, Sinatra, Git, Heroku
 
