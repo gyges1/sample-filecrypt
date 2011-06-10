@@ -6,3 +6,6 @@ small sample sinatra app for Heroku that handles upload/download of files via en
 and encrypts/decrypts content (AES, 256bit)
 
 Can be customized for various asset stores, user auth and key mgmt.
+
+Still needs:
+Get class authorization
