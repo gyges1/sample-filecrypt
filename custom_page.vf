@@ -1,0 +1,26 @@
+<apex:page sidebar="false" showHeader="false" standardController="EncryptedFile__c" extensions="EncryptedFileExtension" recordSetVar="files">
+ 
+  <apex:pageBlock >
+    <apex:pageBlockTable value="{!files}" var="f">
+      <apex:column value="{!f.name}"/>
+      <apex:column value="{!f.FileURL__c}"/>
+    </apex:pageBlockTable>
+
+  <br/>
+  
+  
+  <fieldset>
+    <legend>Upload a new file:</legend> 
+  <form action="https://filecrypt.heroku.com/upload" method="POST" accept-charset="utf-8" enctype="multipart/form-data">
+      <input type="hidden" name="user" value="{!User}" />     
+      <input type="hidden" name="session" value="{!Session}" />
+      <input type="hidden" name="org" value="{!Org}" />
+      <input type="file" name="file" />
+      <input type="submit" value="upload file" /> 
+  </form>
+  </fieldset>
+  
+  </apex:pageBlock>
+
+  
+</apex:page>

@@ -8,7 +8,10 @@ overview:
 small sample sinatra app for Heroku that handles upload/download of files via encrypted communication (SSL, 128bit) 
 and encrypts/decrypts content (AES, 256bit)
 
-Can be customized for various asset stores, user auth and key mgmt.
+Use the custom_page.vf code w/in SFDC to create a new Tab/and VF page that will expose the Ruby app w/in SFDC.
+
+This can be customized for various asset stores, user auth and key mgmt.
+
 
 Still needs:
 Get class authorization
